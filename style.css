@@ -299,11 +299,61 @@ h3 {
     color: #19202D;
   }
 
+  .full-time-checkmark span {
+    display: none;
+  }
+
   .search-button-big {
     margin-left: 28px;
     padding: 16px;
     font-size: 16px;
     font-weight: 700;
+  }
+
+}
+
+/* desktop */
+
+@media (min-width: 1440px){
+  .header{ 
+    background-image: url(assets/images/triangle-1.svg),
+        url(assets/images/triangle-2-tablet.svg),
+        url(assets/images/triangle-desktop.svg);
+    background-repeat: no-repeat;
+    background-position: bottom left, top center, right center;
+  }
+  
+  .header-inner {
+    max-width: 1110px;
+    margin: 0 auto;
+  }
+
+  .search-form-big {
+    max-width: 1110px;
+    margin: 0 auto;
+  }
+
+  .search-form-big div{
+    width: 33%;
+  }
+
+  .full-time-checkmark span {
+    display: inline-block;  
+  }
+
+  .search-button-big {
+    padding: 16px 35.5px;
+  }
+
+  .jobs-list {
+    gap: 65px 30px;
+    max-width: 1110px;
+    margin: 120px auto;
+  }
+
+  .job-card {
+    flex: 0 0 calc(33.3% - 30px);
+    margin-top: 0;
   }
 
 }
