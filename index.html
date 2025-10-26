@@ -19,18 +19,41 @@
                 <input type="checkbox" name="light-toggler">
                 <img src="assets/icons/moon-icon.svg" alt="moon">
             </div>
+            <form class="search-form">
+                <div class="search-form-big">
+                    <div class="title-filter-holder">
+                        <img src="assets/icons/search-icon-blue.svg" alt="search">
+                        <input type="search" placeholder="Filter by title…" name="searchbar" class="filter-by-title">
+                    </div>
+                    <div class="location-filter-holder">
+                        <img src="assets/icons/location-icon.svg" alt="location">
+                        <input type="search" placeholder="Filter by location..." name="filter" class="filter-by-location">
+                    </div>
+                    <div class="full-time-filter-holder">
+                        <label class="full-time-checkbox-label">
+                            <input type="checkbox" name="full-time-only" class="full-time-checkbox">
+                            <span class="full-time-checkmark">Full Time</span>
+                        </label>
+                        <button type="submit" class="search-button-big btn-purple">
+                            Search
+                        </button>
+                    </div>
+
+                </div>
+                <div class="search-form-small">
+                    <input type="search" placeholder="Filter by title…" name="searchbar">
+                    
+                    <div class="form-controls">
+                        <button class="filter-button">
+                            <img src="assets/icons/filter-icon.svg" alt="filter">
+                        </button>
+                        <button class="search-button btn-purple">
+                            <img src="assets/icons/search-icon.svg" alt="search">
+                        </button>
+                    </div>
+                </div>
+            </form>
         </div>
-        <form class="search-form">
-            <input type="search" placeholder="Filter by title…" name="searchbar">
-            <div class="form-controls">
-                <button class="filter-button">
-                    <img src="assets/icons/filter-icon.svg" alt="filter">
-                </button>
-                <button class="search-button btn-purple">
-                    <img src="assets/icons/search-icon.svg" alt="search">
-            </button>
-            </div>
-        </form>
     </header>
     <!-- content -->
     <main class="content">
